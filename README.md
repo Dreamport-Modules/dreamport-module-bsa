@@ -127,3 +127,9 @@ import (no `wasm-bindgen`, no WASI).
 `src/lib.rs` offers the decoder `example`: it accepts an input exactly as long as the output and copies it.
 Replace `decode` with your own decoder. The example declares no reader; a reader adds `dp_list` and
 `dp_output` and reads its container through `host::Container`.
+
+## License
+
+MIT with the Commons Clause (see `LICENSE`): you may use, copy, modify and share this module and your fork of it,
+but you may not sell it, or sell a product or service whose value comes mainly from it. A world that uses a module
+is not selling the module.
